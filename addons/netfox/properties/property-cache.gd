@@ -26,5 +26,5 @@ func properties() -> Array:
 	result.assign(_cache.values())
 	return result
 
-func clear():
+func clear() -> void:
 	_cache.clear()
